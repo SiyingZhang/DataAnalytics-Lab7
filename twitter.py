@@ -45,8 +45,8 @@ with con:
 		insertStatement = 'INSERT INTO nodes VALUES(?, ?, ?, ?, ?)'
 		parms = (tweet['id_str'], tweet['user']['id_str'], tweet['user']['screen_name'], tweet['created_at'], tweet['text'])
 		cur.execute(insertStatement, parms)
-		print "Inserting tweets: ", tweet['text']
-		targets = re.findall('\ \@(\w+)', tweet['text'])
+		print "\nInserting tweets: ", tweet['text']
+		targets = re.findall('\@(\w+)', tweet['text'])
 		for name in targets:
 			insertStatement = 'INSERT INTO links VALUES(?, ?, ?)'
 			parms = (tweet['id_str'], tweet['user']['id_str'], name)
