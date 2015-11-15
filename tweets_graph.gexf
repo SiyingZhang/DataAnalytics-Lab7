@@ -1,0 +1,477 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static">
+    <nodes>
+      <node id="2578762186" label="2578762186" />
+      <node id="773956490" label="773956490" />
+      <node id="311780564" label="nyknicks" />
+      <node id="222705238" label="SportsCenter" />
+      <node id="347552325" label="347552325" />
+      <node id="2793486730" label="2793486730" />
+      <node id="565064716" label="tweetjhood" />
+      <node id="2218662414" label="DavidtheAdmiral" />
+      <node id="598360749" label="nyknicks" />
+      <node id="61514072" label="Lakers" />
+      <node id="3552164782" label="3552164782" />
+      <node id="2935872532" label="nyknicks" />
+      <node id="35108346" label="35108346" />
+      <node id="186199581" label="nyknicks" />
+      <node id="3805679533" label="3805679533" />
+      <node id="2319722378" label="2319722378" />
+      <node id="3154837702" label="3154837702" />
+      <node id="2793486730" label="pk500" />
+      <node id="2400537000" label="2400537000" />
+      <node id="311780564" label="311780564" />
+      <node id="443982087" label="iSpeakComedy" />
+      <node id="2745592365" label="kevin_seraphin" />
+      <node id="1187478062" label="espn" />
+      <node id="526941391" label="526941391" />
+      <node id="241902765" label="241902765" />
+      <node id="34797447" label="34797447" />
+      <node id="2881548062" label="2881548062" />
+      <node id="517792855" label="517792855" />
+      <node id="1597159004" label="1597159004" />
+      <node id="936175676" label="XboxSupport" />
+      <node id="227390450" label="227390450" />
+      <node id="249485886" label="nyknicks" />
+      <node id="2852291509" label="nyknicks" />
+      <node id="23545920" label="espn" />
+      <node id="1628623033" label="1628623033" />
+      <node id="1702183596" label="jesserthelazer" />
+      <node id="347552325" label="Jerseymade93" />
+      <node id="311828314" label="311828314" />
+      <node id="1146454603" label="nyknicks" />
+      <node id="458031692" label="espn" />
+      <node id="43991390" label="kevin_seraphin" />
+      <node id="186199581" label="186199581" />
+      <node id="42107545" label="42107545" />
+      <node id="120123576" label="gt_hughes" />
+      <node id="1269539412" label="SportsCenter" />
+      <node id="950641237" label="TheLaunchMag" />
+      <node id="1140203496" label="1140203496" />
+      <node id="517792855" label="espn" />
+      <node id="1015455320" label="SportsTaxMan" />
+      <node id="127490998" label="127490998" />
+      <node id="1597159004" label="espn" />
+      <node id="458031692" label="458031692" />
+      <node id="2557711814" label="2557711814" />
+      <node id="29996134" label="sherylunderwood" />
+      <node id="469834723" label="469834723" />
+      <node id="2218662414" label="2218662414" />
+      <node id="2381077609" label="SpeakComedy" />
+      <node id="2291331691" label="kevin_seraphin" />
+      <node id="3116410988" label="espn" />
+      <node id="222705238" label="222705238" />
+      <node id="315406781" label="DavidtheAdmiral" />
+      <node id="399163233" label="399163233" />
+      <node id="49207618" label="49207618" />
+      <node id="574175351" label="espn" />
+      <node id="66268792" label="YouTube" />
+      <node id="403445012" label="nyknicks" />
+      <node id="2269461635" label="2269461635" />
+      <node id="456072021" label="PelicansNBA" />
+      <node id="2959332687" label="2959332687" />
+      <node id="936175676" label="936175676" />
+      <node id="319223457" label="319223457" />
+      <node id="243907264" label="AthIetesDesire" />
+      <node id="2269461635" label="RTNBA" />
+      <node id="22218749" label="22218749" />
+      <node id="513458997" label="513458997" />
+      <node id="456072021" label="456072021" />
+      <node id="999776449" label="999776449" />
+      <node id="1262879887" label="SpeakComedy" />
+      <node id="3196215467" label="3196215467" />
+      <node id="3805679533" label="espn" />
+      <node id="397672282" label="397672282" />
+      <node id="97746074" label="SpeakComedy" />
+      <node id="3133299868" label="grantgust" />
+      <node id="278811071" label="278811071" />
+      <node id="452865696" label="espn" />
+      <node id="319223457" label="SportsCenter" />
+      <node id="47735609" label="47735609" />
+      <node id="23545920" label="23545920" />
+      <node id="2376476839" label="Wildcat_Country" />
+      <node id="412740778" label="kevin_seraphin" />
+      <node id="3196215467" label="NBADraft" />
+      <node id="1620665576" label="1620665576" />
+      <node id="241902765" label="spratto9" />
+      <node id="1709902826" label="1709902826" />
+      <node id="3344291326" label="3344291326" />
+      <node id="755495388" label="755495388" />
+      <node id="38057587" label="TheLaunchMag" />
+      <node id="1146454603" label="1146454603" />
+      <node id="901615285" label="nyknicks" />
+      <node id="61514072" label="61514072" />
+      <node id="565064716" label="565064716" />
+      <node id="578657464" label="espn" />
+      <node id="1628623033" label="kevin_seraphin" />
+      <node id="249485886" label="249485886" />
+      <node id="3545388381" label="3545388381" />
+      <node id="2578762186" label="_AthIeteLife_" />
+      <node id="54556350" label="ThaManeEvent" />
+      <node id="493726400" label="NBAonTNT" />
+      <node id="999776449" label="kevin_seraphin" />
+      <node id="1597482762" label="1597482762" />
+      <node id="3154837702" label="espn" />
+      <node id="3160865484" label="3160865484" />
+      <node id="425459142" label="DFS_Almanac" />
+      <node id="623822641" label="623822641" />
+      <node id="361192401" label="361192401" />
+      <node id="2793477154" label="SpeakComedy" />
+      <node id="2935872532" label="2935872532" />
+      <node id="277722319" label="TheLaunchMag" />
+      <node id="3042497917" label="3042497917" />
+      <node id="257568977" label="nyknicks" />
+      <node id="467996141" label="467996141" />
+      <node id="97746074" label="97746074" />
+      <node id="3215525144" label="3215525144" />
+      <node id="66268792" label="66268792" />
+      <node id="3849618914" label="3849618914" />
+      <node id="2990244572" label="nyknicks" />
+      <node id="598360749" label="598360749" />
+      <node id="2743394014" label="SpeakComedy" />
+      <node id="477926650" label="477926650" />
+      <node id="443982087" label="443982087" />
+      <node id="950641237" label="950641237" />
+      <node id="51533030" label="51533030" />
+      <node id="1263154405" label="nyknicks" />
+      <node id="51533030" label="SportsCenter" />
+      <node id="115974577" label="115974577" />
+      <node id="1620665576" label="SpeakComedy" />
+      <node id="3042497917" label="SportsCenter" />
+      <node id="889730282" label="david7ventura" />
+      <node id="2828123584" label="2828123584" />
+      <node id="162617050" label="162617050" />
+      <node id="981556056" label="981556056" />
+      <node id="277722319" label="277722319" />
+      <node id="198737138" label="cthagod" />
+      <node id="2203716854" label="goradia92" />
+      <node id="1421254932" label="1421254932" />
+      <node id="403445012" label="403445012" />
+      <node id="788017014" label="788017014" />
+      <node id="477926650" label="nyknicks" />
+      <node id="43991390" label="43991390" />
+      <node id="3133299868" label="3133299868" />
+      <node id="375809932" label="375809932" />
+      <node id="3807299843" label="troytheblackguy" />
+      <node id="36778940" label="36778940" />
+      <node id="526941391" label="espn" />
+      <node id="389580566" label="389580566" />
+      <node id="1597482762" label="RTNBA" />
+      <node id="3807299843" label="3807299843" />
+      <node id="2852291509" label="2852291509" />
+      <node id="257568977" label="257568977" />
+      <node id="452390670" label="1" />
+      <node id="35338602" label="35338602" />
+      <node id="1421254932" label="TheLaunchMag" />
+      <node id="2376476839" label="2376476839" />
+      <node id="389580566" label="Lakers" />
+      <node id="3215525144" label="otgbasketball" />
+      <node id="336314500" label="nyknicks" />
+      <node id="2793477154" label="2793477154" />
+      <node id="1195525422" label="1195525422" />
+      <node id="162617050" label="nyknicks" />
+      <node id="2881548062" label="Warriors" />
+      <node id="1703449392" label="Vestboy_Myst" />
+      <node id="243907264" label="243907264" />
+      <node id="2369692657" label="2369692657" />
+      <node id="270709052" label="270709052" />
+      <node id="4032086363" label="4032086363" />
+      <node id="1164336583" label="1164336583" />
+      <node id="755495388" label="SportsCenter" />
+      <node id="2291331691" label="2291331691" />
+      <node id="38057587" label="38057587" />
+      <node id="2990244572" label="2990244572" />
+      <node id="3561134895" label="SpeakComedy" />
+      <node id="1085056340" label="1085056340" />
+      <node id="623822641" label="SpeakComedy" />
+      <node id="1187478062" label="1187478062" />
+      <node id="513458997" label="espn" />
+      <node id="585284551" label="MattNorlander" />
+      <node id="3304701349" label="3304701349" />
+      <node id="47735609" label="NYCKING" />
+      <node id="270709052" label="CBSSportsNBA" />
+      <node id="2319722378" label="WORLDSTARC0MEDY" />
+      <node id="1263154405" label="1263154405" />
+      <node id="1262879887" label="1262879887" />
+      <node id="49207618" label="QuincyAcy" />
+      <node id="311828314" label="SportsCenter" />
+      <node id="512576462" label="512576462" />
+      <node id="495523304" label="495523304" />
+      <node id="1855743686" label="NBA" />
+      <node id="60070239" label="60070239" />
+      <node id="2330960701" label="2330960701" />
+      <node id="1352637930" label="1352637930" />
+      <node id="1686279992" label="kevin_seraphin" />
+      <node id="1447959014" label="1447959014" />
+      <node id="474372459" label="474372459" />
+      <node id="1686279992" label="1686279992" />
+      <node id="981556056" label="nyknicks" />
+      <node id="397672282" label="nyknicks" />
+      <node id="4032086363" label="Jim_Eichenhofer" />
+      <node id="3545388381" label="kevin_seraphin" />
+      <node id="1918760846" label="1918760846" />
+      <node id="60070239" label="SLAMonline" />
+      <node id="574175351" label="574175351" />
+      <node id="399163233" label="SN_Ohio" />
+      <node id="2745592365" label="2745592365" />
+      <node id="1877508517" label="espn" />
+      <node id="35338602" label="VICE" />
+      <node id="474372459" label="nyknicks" />
+      <node id="3922266988" label="spurs" />
+      <node id="2330960701" label="TheLaunchMag" />
+      <node id="585284551" label="585284551" />
+      <node id="495523304" label="TheHoodVines" />
+      <node id="901615285" label="901615285" />
+      <node id="964823923" label="espn" />
+      <node id="2886956404" label="nyknicks" />
+      <node id="443486069" label="nyknicks" />
+      <node id="788017014" label="All_SportNews" />
+      <node id="26471802" label="SLAMonline" />
+      <node id="3158081458" label="PelicansNBA" />
+      <node id="239182204" label="fullcourtprez" />
+      <node id="1709902826" label="nyknicks" />
+      <node id="2886956404" label="2886956404" />
+      <node id="198737138" label="198737138" />
+      <node id="1702183596" label="1702183596" />
+      <node id="2275428751" label="2275428751" />
+      <node id="34797447" label="nyknicks" />
+      <node id="773956490" label="NBA" />
+      <node id="4089162135" label="PariMaxwell" />
+      <node id="375809932" label="SpeakComedy" />
+      <node id="26471802" label="26471802" />
+      <node id="1918760846" label="nyknicks" />
+      <node id="2275428751" label="hoopedup" />
+      <node id="315406781" label="315406781" />
+      <node id="1195525422" label="NBA_Sneakers" />
+      <node id="2333512615" label="NBA" />
+      <node id="598988272" label="598988272" />
+      <node id="1074966474" label="1074966474" />
+      <node id="42107545" label="RedCupRebellion" />
+      <node id="1164336583" label="bballvines" />
+      <node id="1015455320" label="1015455320" />
+      <node id="500277662" label="PGOMD_ENT" />
+      <node id="964823923" label="964823923" />
+      <node id="500277662" label="500277662" />
+      <node id="54556350" label="54556350" />
+      <node id="452865696" label="452865696" />
+      <node id="889730282" label="889730282" />
+      <node id="2369692657" label="haralabob" />
+      <node id="2400537000" label="espn" />
+      <node id="1703449392" label="1703449392" />
+      <node id="227390450" label="SacramentoKings" />
+      <node id="3552164782" label="SportsCenter" />
+      <node id="2743394014" label="2743394014" />
+      <node id="65162672" label="NBA" />
+      <node id="115974577" label="nyknicks" />
+      <node id="1269539412" label="1269539412" />
+      <node id="412740778" label="412740778" />
+      <node id="1877508517" label="1877508517" />
+      <node id="127490998" label="SportCritik" />
+      <node id="65162672" label="65162672" />
+      <node id="425459142" label="425459142" />
+      <node id="36778940" label="Raptors" />
+      <node id="3158081458" label="3158081458" />
+      <node id="278811071" label="SportsCenter" />
+      <node id="2828123584" label="gt_hughes" />
+      <node id="3160865484" label="Chicago_History" />
+      <node id="2557711814" label="jesserthelazer" />
+      <node id="443486069" label="443486069" />
+      <node id="336314500" label="336314500" />
+      <node id="1074966474" label="SportsCenter" />
+      <node id="1266119162" label="1266119162" />
+      <node id="512576462" label="TheOriginalOg" />
+      <node id="578657464" label="578657464" />
+      <node id="452390670" label="452390670" />
+      <node id="361192401" label="NBADraft" />
+      <node id="3116410988" label="3116410988" />
+      <node id="150767572" label="kevin_seraphin" />
+      <node id="2333512615" label="2333512615" />
+      <node id="4089162135" label="4089162135" />
+      <node id="2176188917" label="2176188917" />
+      <node id="3561134895" label="3561134895" />
+      <node id="2203716854" label="2203716854" />
+      <node id="35108346" label="KingsViews" />
+      <node id="3304701349" label="Vine" />
+      <node id="493726400" label="493726400" />
+      <node id="3849618914" label="cavs" />
+      <node id="469834723" label="LineStarApp" />
+      <node id="239182204" label="239182204" />
+      <node id="1447959014" label="SpeakComedy" />
+      <node id="1140203496" label="nyknicks" />
+      <node id="1352637930" label="Lakers" />
+      <node id="29996134" label="29996134" />
+      <node id="467996141" label="DavidtheAdmiral" />
+      <node id="598988272" label="SpeakComedy" />
+      <node id="3922266988" label="3922266988" />
+      <node id="2959332687" label="jesserthelazer" />
+      <node id="1855743686" label="1855743686" />
+      <node id="2176188917" label="X2thaV" />
+      <node id="1085056340" label="SpeakComedy" />
+      <node id="1266119162" label="SportsCenter" />
+      <node id="150767572" label="150767572" />
+      <node id="120123576" label="120123576" />
+      <node id="22218749" label="TheLaunchMag" />
+      <node id="3344291326" label="nyknicks" />
+      <node id="2381077609" label="2381077609" />
+    </nodes>
+    <edges>
+      <edge id="0" source="2578762186" target="2578762186" />
+      <edge id="1" source="773956490" target="773956490" />
+      <edge id="2" source="311780564" target="311780564" />
+      <edge id="3" source="222705238" target="222705238" />
+      <edge id="4" source="347552325" target="347552325" />
+      <edge id="5" source="2793486730" target="2793486730" />
+      <edge id="6" source="565064716" target="565064716" />
+      <edge id="7" source="2218662414" target="2218662414" />
+      <edge id="8" source="598360749" target="598360749" />
+      <edge id="9" source="61514072" target="61514072" />
+      <edge id="10" source="3552164782" target="3552164782" />
+      <edge id="11" source="2935872532" target="2935872532" />
+      <edge id="12" source="35108346" target="35108346" />
+      <edge id="13" source="186199581" target="186199581" />
+      <edge id="14" source="3805679533" target="3805679533" />
+      <edge id="15" source="2319722378" target="2319722378" />
+      <edge id="16" source="3154837702" target="3154837702" />
+      <edge id="17" source="2400537000" target="2400537000" />
+      <edge id="18" source="443982087" target="443982087" />
+      <edge id="19" source="2745592365" target="2745592365" />
+      <edge id="20" source="1187478062" target="1187478062" />
+      <edge id="21" source="526941391" target="526941391" />
+      <edge id="22" source="241902765" target="241902765" />
+      <edge id="23" source="34797447" target="34797447" />
+      <edge id="24" source="2881548062" target="2881548062" />
+      <edge id="25" source="517792855" target="517792855" />
+      <edge id="26" source="1597159004" target="1597159004" />
+      <edge id="27" source="936175676" target="936175676" />
+      <edge id="28" source="227390450" target="227390450" />
+      <edge id="29" source="249485886" target="249485886" />
+      <edge id="30" source="2852291509" target="2852291509" />
+      <edge id="31" source="23545920" target="23545920" />
+      <edge id="32" source="1628623033" target="1628623033" />
+      <edge id="33" source="1702183596" target="1702183596" />
+      <edge id="34" source="311828314" target="311828314" />
+      <edge id="35" source="1146454603" target="1146454603" />
+      <edge id="36" source="458031692" target="458031692" />
+      <edge id="37" source="43991390" target="43991390" />
+      <edge id="38" source="42107545" target="42107545" />
+      <edge id="39" source="120123576" target="120123576" />
+      <edge id="40" source="1269539412" target="1269539412" />
+      <edge id="41" source="950641237" target="950641237" />
+      <edge id="42" source="1140203496" target="1140203496" />
+      <edge id="43" source="1015455320" target="1015455320" />
+      <edge id="44" source="127490998" target="127490998" />
+      <edge id="45" source="2557711814" target="2557711814" />
+      <edge id="46" source="29996134" target="29996134" />
+      <edge id="47" source="469834723" target="469834723" />
+      <edge id="48" source="2381077609" target="2381077609" />
+      <edge id="49" source="2291331691" target="2291331691" />
+      <edge id="50" source="3116410988" target="3116410988" />
+      <edge id="51" source="315406781" target="315406781" />
+      <edge id="52" source="399163233" target="399163233" />
+      <edge id="53" source="49207618" target="49207618" />
+      <edge id="54" source="574175351" target="574175351" />
+      <edge id="55" source="66268792" target="66268792" />
+      <edge id="56" source="403445012" target="403445012" />
+      <edge id="57" source="2269461635" target="2269461635" />
+      <edge id="58" source="456072021" target="456072021" />
+      <edge id="59" source="2959332687" target="2959332687" />
+      <edge id="60" source="319223457" target="319223457" />
+      <edge id="61" source="243907264" target="243907264" />
+      <edge id="62" source="22218749" target="22218749" />
+      <edge id="63" source="513458997" target="513458997" />
+      <edge id="64" source="999776449" target="999776449" />
+      <edge id="65" source="1262879887" target="1262879887" />
+      <edge id="66" source="3196215467" target="3196215467" />
+      <edge id="67" source="397672282" target="397672282" />
+      <edge id="68" source="97746074" target="97746074" />
+      <edge id="69" source="3133299868" target="3133299868" />
+      <edge id="70" source="278811071" target="278811071" />
+      <edge id="71" source="452865696" target="452865696" />
+      <edge id="72" source="47735609" target="47735609" />
+      <edge id="73" source="2376476839" target="2376476839" />
+      <edge id="74" source="412740778" target="412740778" />
+      <edge id="75" source="1620665576" target="1620665576" />
+      <edge id="76" source="1709902826" target="1709902826" />
+      <edge id="77" source="3344291326" target="3344291326" />
+      <edge id="78" source="755495388" target="755495388" />
+      <edge id="79" source="38057587" target="38057587" />
+      <edge id="80" source="901615285" target="901615285" />
+      <edge id="81" source="578657464" target="578657464" />
+      <edge id="82" source="3545388381" target="3545388381" />
+      <edge id="83" source="54556350" target="54556350" />
+      <edge id="84" source="493726400" target="493726400" />
+      <edge id="85" source="1597482762" target="1597482762" />
+      <edge id="86" source="3160865484" target="3160865484" />
+      <edge id="87" source="425459142" target="425459142" />
+      <edge id="88" source="623822641" target="623822641" />
+      <edge id="89" source="361192401" target="361192401" />
+      <edge id="90" source="2793477154" target="2793477154" />
+      <edge id="91" source="277722319" target="277722319" />
+      <edge id="92" source="3042497917" target="3042497917" />
+      <edge id="93" source="257568977" target="257568977" />
+      <edge id="94" source="467996141" target="467996141" />
+      <edge id="95" source="3215525144" target="3215525144" />
+      <edge id="96" source="3849618914" target="3849618914" />
+      <edge id="97" source="2990244572" target="2990244572" />
+      <edge id="98" source="2743394014" target="2743394014" />
+      <edge id="99" source="477926650" target="477926650" />
+      <edge id="100" source="51533030" target="51533030" />
+      <edge id="101" source="1263154405" target="1263154405" />
+      <edge id="102" source="115974577" target="115974577" />
+      <edge id="103" source="889730282" target="889730282" />
+      <edge id="104" source="2828123584" target="2828123584" />
+      <edge id="105" source="162617050" target="162617050" />
+      <edge id="106" source="981556056" target="981556056" />
+      <edge id="107" source="198737138" target="198737138" />
+      <edge id="108" source="2203716854" target="2203716854" />
+      <edge id="109" source="1421254932" target="1421254932" />
+      <edge id="110" source="788017014" target="788017014" />
+      <edge id="111" source="375809932" target="375809932" />
+      <edge id="112" source="3807299843" target="3807299843" />
+      <edge id="113" source="36778940" target="36778940" />
+      <edge id="114" source="389580566" target="389580566" />
+      <edge id="115" source="452390670" target="452390670" />
+      <edge id="116" source="35338602" target="35338602" />
+      <edge id="117" source="336314500" target="336314500" />
+      <edge id="118" source="1195525422" target="1195525422" />
+      <edge id="119" source="1703449392" target="1703449392" />
+      <edge id="120" source="2369692657" target="2369692657" />
+      <edge id="121" source="270709052" target="270709052" />
+      <edge id="122" source="4032086363" target="4032086363" />
+      <edge id="123" source="1164336583" target="1164336583" />
+      <edge id="124" source="3561134895" target="3561134895" />
+      <edge id="125" source="1085056340" target="1085056340" />
+      <edge id="126" source="585284551" target="585284551" />
+      <edge id="127" source="3304701349" target="3304701349" />
+      <edge id="128" source="512576462" target="512576462" />
+      <edge id="129" source="495523304" target="495523304" />
+      <edge id="130" source="1855743686" target="1855743686" />
+      <edge id="131" source="60070239" target="60070239" />
+      <edge id="132" source="2330960701" target="2330960701" />
+      <edge id="133" source="1352637930" target="1352637930" />
+      <edge id="134" source="1686279992" target="1686279992" />
+      <edge id="135" source="1447959014" target="1447959014" />
+      <edge id="136" source="474372459" target="474372459" />
+      <edge id="137" source="1918760846" target="1918760846" />
+      <edge id="138" source="1877508517" target="1877508517" />
+      <edge id="139" source="3922266988" target="3922266988" />
+      <edge id="140" source="964823923" target="964823923" />
+      <edge id="141" source="2886956404" target="2886956404" />
+      <edge id="142" source="443486069" target="443486069" />
+      <edge id="143" source="26471802" target="26471802" />
+      <edge id="144" source="3158081458" target="3158081458" />
+      <edge id="145" source="239182204" target="239182204" />
+      <edge id="146" source="2275428751" target="2275428751" />
+      <edge id="147" source="4089162135" target="4089162135" />
+      <edge id="148" source="2333512615" target="2333512615" />
+      <edge id="149" source="598988272" target="598988272" />
+      <edge id="150" source="1074966474" target="1074966474" />
+      <edge id="151" source="500277662" target="500277662" />
+      <edge id="152" source="65162672" target="65162672" />
+      <edge id="153" source="1266119162" target="1266119162" />
+      <edge id="154" source="150767572" target="150767572" />
+      <edge id="155" source="2176188917" target="2176188917" />
+    </edges>
+  </graph>
+</gexf>
