@@ -18,7 +18,7 @@ q = "NBA" # what you are querying
 #lng = "-95.362222" # longitude @Toyota Center
 #r = "100" # radius 
 # url = """https://api.twitter.com/1.1/search/tweets.json?q=%s&include_entities=true&result_type=recent&geocode=%s,%s,%smi""" % (q,lat,lng,r)
-url = """https://api.twitter.com/1.1/search/tweets.json?q=%s&lang=en&result_type=recent&count=200""" % q
+url = """https://api.twitter.com/1.1/search/tweets.json?q=%s&lang=en&result_type=recent&count=1000""" % q
 header, fhand = client.request(url, method="GET")
 jDoc = json.loads(fhand, encoding='utf8')
 ## Set directory to YOUR computer and folder
@@ -35,12 +35,24 @@ with con:
 	cur = con.cursor()
 	# check for the tables it exists it will drope it and create a new one 
 	cur.execute("DROP TABLE IF EXISTS nodes") 
-	#Create a table named "ratings", movieName as the primary key, years , ratings and votes 
+	# check for the tables it exists it will drope it and create a new one 
+	cur.execute("DROP TABLE IF EXISTS links") 
+	#Create a table named "nodes", movieName as the primary key, years , ratings and votes 
 	cur.execute("CREATE TABLE nodes(twitter_id TEXT, user_id TEXT, screen_name TEXT, created_at TEXT, twitter_text TEXT)")
+	#Create a table named "links", movieName as the primary key, years , ratings and votes 
+	cur.execute("CREATE TABLE links(twitter_id TEXT, user_id TEXT, screen_name_target TEXT)")
 	for tweet in jDoc['statuses']:
 		insertStatement = 'INSERT INTO nodes VALUES(?, ?, ?, ?, ?)'
 		parms = (tweet['id_str'], tweet['user']['id_str'], tweet['user']['screen_name'], tweet['created_at'], tweet['text'])
 		cur.execute(insertStatement, parms)
-		print "Inserting: ", tweet['text']
+		print "Inserting tweets: ", tweet['text']
+		targets = re.findall('\ \@(\w+)', tweet['text'])
+		for name in targets:
+			insertStatement = 'INSERT INTO links VALUES(?, ?, ?)'
+			parms = (tweet['id_str'], tweet['user']['id_str'], name)
+			cur.execute(insertStatement, parms)
+			print "Inserting target: ", name 
 	con.commit()
+
+
 
