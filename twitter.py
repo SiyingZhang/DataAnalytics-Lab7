@@ -5,7 +5,6 @@ import urllib
 import re
 import os
 
-# Go to https://apps.twitter.com/ to setup a project
 consumer_key='gNzYFAHNldGmNDQHL2EGwVDI7'
 consumer_secret='F7ni1LTaNSXi8cr4DRix43bDuYow5v4rWDZ5imk45Xvz7SqcjH'
 access_token_key='3435196294-Itqk6YQ36TPBqHKrwyaCEK2hJAX1A4IF4Qn5XrM'
@@ -27,8 +26,6 @@ if not os.path.exists(directoryForDB):  # create a new one if it is not exist
 	os.makedirs(directoryForDB)
 
 directoryForDB = directoryForDB + "twitter.db"
-## If database does not exist, creates items
-## If database does exist, opens it
 con = lite.connect(directoryForDB)
 ### open a connection to store the data
 with con:
@@ -45,13 +42,13 @@ with con:
 		insertStatement = 'INSERT INTO nodes VALUES(?, ?, ?, ?, ?)'
 		parms = (tweet['id_str'], tweet['user']['id_str'], tweet['user']['screen_name'], tweet['created_at'], tweet['text'])
 		cur.execute(insertStatement, parms)
-		print "\nInserting tweets: ", tweet['text']
+		print "\nInserting tweets: ", tweet['text'].replace("\n"," ")
 		targets = re.findall('\@(\w+)', tweet['text'])
 		for name in targets:
 			insertStatement = 'INSERT INTO links VALUES(?, ?, ?)'
 			parms = (tweet['id_str'], tweet['user']['id_str'], name)
 			cur.execute(insertStatement, parms)
-			print "Inserting target: ", name 
+			print " *Inserting link(s) from %s to %s." % (tweet['user']['screen_name'], name)
 	con.commit()
 
 
