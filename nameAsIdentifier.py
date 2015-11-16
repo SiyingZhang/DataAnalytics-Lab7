@@ -2,7 +2,7 @@ import sqlite3 as lite
 import networkx as nx
 
 #Connect to sqlite DB
-directoryForDB = "../DataAnalytics-Lab7/twitter.db"
+directoryForDB = "./twitter.db"
 con = lite.connect(directoryForDB)
 
 with con:
