@@ -55,6 +55,5 @@ with con:
 			print " *Inserting link(s) from %s to %s." % (tweet['user']['screen_name'], name)
 	print "Inserting count: ", count
 	con.commit()
-
-
+con.close()
 
