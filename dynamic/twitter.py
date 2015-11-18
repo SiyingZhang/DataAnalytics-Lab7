@@ -30,13 +30,9 @@ con = lite.connect(directoryForDB)
 ### open a connection to store the data
 with con:
 	cur = con.cursor()
-	# # check for the tables it exists it will drope it and create a new one 
 	# cur.execute("DROP TABLE IF EXISTS nodes") 
-	# # check for the tables it exists it will drope it and create a new one 
 	# cur.execute("DROP TABLE IF EXISTS links") 
-	# #Create a table named "nodes", movieName as the primary key, years , ratings and votes 
 	# cur.execute("CREATE TABLE nodes(twitter_id TEXT, user_id TEXT, user_created_at TEXT, twitter_text TEXT)")
-	# #Create a table named "links", movieName as the primary key, years , ratings and votes 
 	# cur.execute("CREATE TABLE links(twitter_id TEXT, twitter_time TEXT, source_id TEXT, source_name TEXT, target_id TEXT, target_name TEXT)")
 	count = 0	#Count the number of inserted tweets.
 	for tweet in jDoc['statuses']:
