@@ -2,6 +2,7 @@ import sqlite3 as lite
 import networkx as nx
 import simplejson as json
 import oauth2 as oauth
+import time
 
 def convertTime(timeStr):
     months = {'Jan':'01','Feb':'02','Mar':'03','Apr':'04','May':'05','Jun':'06','Jul':'07','Aug':'08','Sep':'09','Oct':'10','Nov':'11','Dec':'12'}
@@ -83,27 +84,36 @@ with con:
 			nodeDic[user] = targetList[user]
 con.close()
 
-#Initialize a new network graph object.
-G = nx.Graph(mode='dynamic')
-G.graph['timeformat']='date' # this line does not work
+fo = open("./graph.gexf", "w")
+fo.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n")
+fo.write("<gexf xmlns:ns0=\"http://www.gexf.net/1.2draft/viz\" version=\"1.2\" xmlns=\"http://www.gexf.net/1.2draft\" xmlns:viz=\"http://www.gexf.net/1.2draft/viz\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.w3.org/2001/XMLSchema-instance\">\n")
 
+fo.write("\t<meta lastmodifieddate=\"%s\">\n" % (time.strftime('%Y-%m-%d',time.localtime(time.time()))))
+fo.write("\t\t<creator>DTNA</creator>\n")
+fo.write("\t</meta>\n")
+fo.write("\t<graph mode=\"dynamic\" defaultedgetype=\"undirected\" timeformat=\"date\">\n")
+
+# Nodes
+fo.write("\t\t<nodes>\n")
 for node in nodeDic:
-	G.add_node(node,nodeDic[node])
-	G.node[node]['viz'] = {'size': nodeSize[node]}
+	fo.write("\t\t\t<node id=\"%s\" label=\"%s\" start=\"%s\">\n" % (node, nodeDic[node]['label'], nodeDic[node]['start']))
+	fo.write("\t\t\t\t<ns0:size value=\"%s\" />\n" % nodeSize[node])
+	fo.write("\t\t\t</node>")
+fo.write("\t\t</nodes>\n")
 
+# Edges
+fo.write("\t\t<edges>\n")
 for link in linkTime:
 	# if there's only one mention relationship between source and target
 	if (len(linkTime[link])==1):
-		G.add_edge(link[0], link[1], {'start': linkTime[link][0]})
-	# the earlier one as 'start' and the later one as 'end'
+		fo.write("\t\t\t<edge source=\"%s\" target=\"%s\" start=\"%s\" weight=\"%s\"/>\n" % (link[0], link[1], linkTime[link][0], linkWeight[link]))
 	else:
 		timeSpan=[]
 		for time in linkTime[link]:
 			timeSpan.append(time)
 		timeSpan.sort()
-		G.add_edge(link[0],link[1])
-		G[link[0]][link[1]]['start']=timeSpan[0]
-		G[link[0]][link[1]]['end'] = timeSpan[len(timeSpan)-1]
-
-#Write the graph G into the gexf file.
-nx.write_gexf(G, './tweets_graph_name_new.gexf', version = '1.2draft')
+		fo.write("\t\t\t<edge source=\"%s\" target=\"%s\" start=\"%s\" end=\"%s\" weight=\"%s\"/>\n" % (link[0], link[1], timeSpan[0], timeSpan[len(timeSpan)-1], linkWeight[link]))
+fo.write("\t\t</edges>\n")
+fo.write("\t</graph>\n")
+fo.write("</gexf>\n")
+fo.close()
