@@ -91,7 +91,7 @@ fo.write("<gexf xmlns:ns0=\"http://www.gexf.net/1.2draft/viz\" version=\"1.2\" x
 fo.write("\t<meta lastmodifieddate=\"%s\">\n" % (time.strftime('%Y-%m-%d',time.localtime(time.time()))))
 fo.write("\t\t<creator>DTNA</creator>\n")
 fo.write("\t</meta>\n")
-fo.write("\t<graph mode=\"dynamic\" defaultedgetype=\"undirected\" timeformat=\"date\">\n")
+fo.write("\t<graph mode=\"dynamic\" defaultedgetype=\"directed\" timeformat=\"date\">\n")
 
 # Nodes
 fo.write("\t\t<nodes>\n")

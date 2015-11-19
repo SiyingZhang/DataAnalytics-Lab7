@@ -3,7 +3,7 @@
 	<meta lastmodifieddate="2015-11-19">
 		<creator>DTNA</creator>
 	</meta>
-	<graph mode="dynamic" defaultedgetype="undirected" timeformat="date">
+	<graph mode="dynamic" defaultedgetype="directed" timeformat="date">
 		<nodes>
 			<node id="43658360" label="DeMar_DeRozan" start="2009-05-31">
 				<ns0:size value="1" />
