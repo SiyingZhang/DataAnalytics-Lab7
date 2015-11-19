@@ -98,7 +98,7 @@ fo.write("\t\t<nodes>\n")
 for node in nodeDic:
 	fo.write("\t\t\t<node id=\"%s\" label=\"%s\" start=\"%s\">\n" % (node, nodeDic[node]['label'], nodeDic[node]['start']))
 	fo.write("\t\t\t\t<ns0:size value=\"%s\" />\n" % nodeSize[node])
-	fo.write("\t\t\t</node>")
+	fo.write("\t\t\t</node>\n")
 fo.write("\t\t</nodes>\n")
 
 # Edges
